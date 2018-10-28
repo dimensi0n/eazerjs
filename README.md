@@ -35,7 +35,7 @@ const Title = {
   }
   
   const component = new Component('MySuperComponent', content, aliases)
-``
+```
 
 The component object called "MySuperComponent" now has the an `h1` title inside and would return:
 
