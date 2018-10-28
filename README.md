@@ -6,16 +6,15 @@ The next generation templating engine
 ## Getting Started
 
 ```
-git clone https://github.com/dimensi0n/eazerjs.git
-
-# To install dependencies
-npm install
+# To install eazerjs
+npm i -S eazerjs
 ```
 
 The eazer.js file contains the main Component class that represents a template, where you can
 define content using javascript objects like so:
 
 ```js
+const {Component} = require('eazerjs')
 const Title = {
     type: 'h1'
   }
@@ -39,7 +38,7 @@ const Title = {
 
 The component object called "MySuperComponent" now has the an `h1` title inside and would return:
 
-> '<div class=\'MySuperComponent\' ><h1   style="">Super component</h1></div>'
+> `<div class=\'MySuperComponent\' ><h1   style="">Super component</h1><p style="">Super paragraph</p></div>`
 
 when component.render() is called.
 
