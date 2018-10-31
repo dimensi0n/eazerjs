@@ -45,10 +45,4 @@ when component.render() is called.
 The eazer file also includes `Group` class which groups `Component` instances to create complex Component structures,
 as well as a `Page` which is a container for `Group` of `Component`
 
-## Tests
-
-To run tests use:
-
-```sh
-npm test
-```
+To see a complete page take a look at the examples.
